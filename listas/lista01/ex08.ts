@@ -2,7 +2,7 @@
 // Enunciado: Leia dois números e mostre a soma, a subtração, a multiplicação, a divisão e o resto..
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).
-const num1: string = prompt("Digite o primeiro número:") ?? "0";
+const num1: string = prompt("Calculadora simples \nDigite o primeiro número:") ?? "0";
 const num2: string = prompt("Digite o segundo número:") ?? "0";
 
 const prim: number = Number(num1);
@@ -16,4 +16,4 @@ const dividir: number = prim / seg;
 const resto: number = prim % seg;
 
 // 3. Saída: mostra o resultado.
-alert(`Soma = ${somar} \nSubtração = ${subtrair} \nMultiplicação = ${multiplicar} \nDivisão = ${dividir} \nResto = ${resto}\n`);
+alert(`Soma = ${somar} \nSubtração = ${subtrair} \nMultiplicação = ${multiplicar} \nDivisão = ${dividir.toFixed(3)} \nResto = ${resto}\n`);

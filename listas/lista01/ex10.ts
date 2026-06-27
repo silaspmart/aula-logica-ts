@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 01
+// Lista 01 — Exercício 10
 // Enunciado: Leia a distância (km) e os litros gastos, e mostre o consumo médio (km/l) com 1 casa..
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).
@@ -12,4 +12,4 @@ const litros: number = Number(litrosGastos);
 const consumoMedio: number = distancia / litros;
 
 // 3. Saída: mostra o resultado.
-alert(`O consumo médio foi de ${consumoMedio} km/litros`);
+alert(`O consumo médio foi de ${consumoMedio.toFixed(2)} km/litro`);

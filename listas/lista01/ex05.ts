@@ -8,7 +8,6 @@ const vlr: number = Number(valorReal);
 
 // 2. Processamento: o cálculo.
 const conversao: number = vlr * 4.95;
-console.log(vlr.toFixed(2));
 
 // 3. Saída: mostra o resultado.
-alert(`R$ ${vlr} equivalem a US$ ${conversao}`); // como arredondar para 2 casas decimais?
+alert(`R$ ${vlr} equivalem a US$ ${conversao.toFixed(2)}`);

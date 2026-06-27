@@ -4,4 +4,4 @@
 const primeiroNome: string = prompt("Digite o seu primeiro nome:") ?? " ";
 const segundoNome: string = prompt("Digite o seu segundo nome:") ?? " ";
 
-alert(`Olá, ${primeiroNome} & ${segundoNome}!`);
+alert(`Olá, ${primeiroNome} ${segundoNome}!`);

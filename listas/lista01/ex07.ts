@@ -12,4 +12,4 @@ const n2: number = Number(nota2);
 const media: number = (n1 + n2)/2;
 
 // 3. Saída: mostra o resultado.
-alert(`A média do aluno é = ${media}`);
+alert(`A média do aluno é = ${media.toFixed(2)}`);
