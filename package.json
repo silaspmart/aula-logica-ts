@@ -2,11 +2,22 @@
   "name": "aula-logica-ts",
   "version": "1.0.0",
   "description": "Material de aula: lógica de programação com TypeScript (prompt/alert no navegador)",
+  "homepage": "https://github.com/silaspmart/aula-logica-ts#readme",
+  "bugs": {
+    "url": "https://github.com/silaspmart/aula-logica-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silaspmart/aula-logica-ts.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
   },
-  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.0"
   }
