@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <header>
+            <h2>PREENCHA OS CAMPOS OBRIGATÓRIOS</h2>
+        </header>
+        
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <label for="nome:">Nome:</label>
+            <input id="nome:" type:"text"><br>
+
+            <label for="endereço:">Endereço:</label>
+            <input id="endereço:" type:"text"><br>
+
+            <label for="idade:">Idade:</label>
+            <input id="idade:" type:"text"><br>
+
+            <label for="email:">E-mail:</label>
+            <input id="email:" type:"text"><br>
+
+            <label for="telefone:">Telefone:</label>
+            <input id="telefone:" type:"text"><br>
+
+            <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option>Rio de Janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Minas Gerais</option>
+                    <option>Pernambuco</option>
+                    <option>Paraná</option>
+                    <option>Goiás</option>
+            </select>
+
+            <label for="area:">Escolaridade:</label>
+            <form>
+                <input type="checkbox" id="op1" name="op1" value="ensino médio">
+                <label for="op1"> Ensino Médio</label>
+                <input type="checkbox" id="op2" name="op2" value="ensino técnico">
+                <label for="op2"> Ensino Técnico</label>
+                <input type="checkbox" id="op3" name="op3" value="ensino superior">
+                <label for="op3"> Ensino Superior</label>
+              </form> 
+
+              <label for="curriculo">Fale sobre você (opcional):</label><br>
+              <textarea rows="5" cols="60"
+                id="curriculo">
+              </textarea><br>
+        </fieldset>
+
+        <button type="submit">
+        Enviar
+        </button>
+                   
+        <button type="reset">
+        Limpar
+        </button>
+
+    </main>
+
+    <footer class="font">
+        <h5>Desenvolvido por Silas Pereira Martins - 2026</h5>
+    </footer>
+</body>
+
+
+</html>
