@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 15
+// Lista 01 — Exercício 18
 // Enunciado: Leia um total de segundos e mostre em horas, minutos e segundos.
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).

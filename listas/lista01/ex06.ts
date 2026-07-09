@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 01
+// Lista 01 — Exercício 06
 // Enunciado: Leia a base e a altura de um retângulo e mostre a área..
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).

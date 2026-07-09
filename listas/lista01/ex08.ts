@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 01
+// Lista 01 — Exercício 08
 // Enunciado: Leia dois números e mostre a soma, a subtração, a multiplicação, a divisão e o resto..
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).

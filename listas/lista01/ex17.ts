@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 15
+// Lista 01 — Exercício 17
 // Enunciado: Leia o preço e o valor pago. Mostre o troco, quantas notas de R$ 10 cabem nele e quanto sobra.
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).

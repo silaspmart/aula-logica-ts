@@ -1,4 +1,4 @@
-// Lista 01 — Exercício 01
+// Lista 01 — Exercício 03
 // Enunciado: Leia um número inteiro e mostre o antecessor e o sucessor dele..
 
 // 1. Entrada: prompt devolve texto (string), por isso usamos Number(...).
