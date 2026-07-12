@@ -10,4 +10,4 @@ for (let i = 0; i < listNums.length; i++) {
     }
 }
 
-alert(`A lista possui ${pares} números pares`)
+alert(`Lista: ${listNums.join(", ")} \nA lista possui ${pares} números pares`)
