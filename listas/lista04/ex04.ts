@@ -8,4 +8,4 @@ for (let i = 0; i < listaNums.length; i++) {
     somaNums = somaNums + listaNums[i];
 }
 
-alert(`Soma dos valores = ${somaNums}`)
+alert(`Números: ${listaNums} \nSoma dos valores = ${somaNums}`)

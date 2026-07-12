@@ -2,10 +2,10 @@
 // Use forEach pra montar uma lista com um traço antes de cada nome.
 
 let listaNom  = ["Helena", "Gabriele", "Felipe", "Oscar", "Mariana"];
-let icone = "";
+let listFin = "";
 
 listaNom.forEach(nomes => {
-    icone = icone + "- " + nomes + "\n";
+    listFin = listFin + "- " + nomes + "\n";
 });
 
-alert(icone);
+alert(`Nomes listados: \n${listFin}`);
