@@ -1,7 +1,5 @@
 // 12 · Função é primo?
-// Crie ehPrimo(n) que retorna true/false. Dica: 
-// assim que achar um divisor, já pode dar return 
-// false (sai da função!).
+// Crie ehPrimo(n) que retorna true/false. Dica: assim que achar um divisor, já pode dar return false (sai da função!).
 
 function ehPrimo(n) {
     if (n<2) {
